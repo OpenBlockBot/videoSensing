@@ -1,0 +1,35 @@
+# Build ignore rules
+# Files and directories matching these patterns will NOT be copied to dist/
+
+# Build output
+dist/
+node_modules/
+
+# Build configuration
+.buildignore
+.editorconfig
+.eslintignore
+.eslintrc.json
+.husky
+
+# Lock files
+package-lock.json
+
+# Version control
+.git/
+.gitignore
+
+# IDE
+.vscode/
+.idea/
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Cache files
+.openblock/
+.translations/
+
+# Sub-modules are inlined into src/videoSensing.js by esbuild; do not ship duplicates.
+src/lib/
