@@ -27,9 +27,7 @@
       }
     },
     "extensionId": "videoSensing",
-    "arch": [
-      "*"
-    ],
+    "arch": null,
     "iconURL": "./assets/videoSensing.png",
     "description": {
       "formatMessage": {
