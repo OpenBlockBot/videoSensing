@@ -1,7 +1,7 @@
 {
   "name": "videoSensing",
-  "version": "1.0.0",
-  "author": "OpenBlock",
+  "version": "0.1.0",
+  "author": "Scratch",
   "license": "MIT",
   "repository": {
     "type": "git",
@@ -27,7 +27,12 @@
       }
     },
     "extensionId": "videoSensing",
-    "arch": null,
+    "arch": [
+      "*"
+    ],
+    "programMode": [
+      "realtime"
+    ],
     "iconURL": "./assets/videoSensing.png",
     "description": {
       "formatMessage": {
