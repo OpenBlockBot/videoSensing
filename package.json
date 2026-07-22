@@ -44,7 +44,7 @@
     "main": "./src/videoSensing.js",
     "translations": "./src/translations.js",
     "tags": [
-      "scratch"
+      "sensor"
     ],
     "helpLink": "https://wiki.openblock.cc"
   },
